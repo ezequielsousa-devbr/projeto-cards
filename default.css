@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  box-sizing: border-box;
+}
+
+#container{
+  background: #F5F0F0;
+  padding: 30px;
+}
+
+.skills-title{
+  background: black;
+  border-radius: 4px;
+}
+
+.skills-title h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10rem;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.container-skills{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.skill{
+  border-radius: 4px;
+  background: white;
+  box-shadow: 8px 8px 25px rgba(29,29,29,0.3);
+}
+
+.iscards-figure img{
+  width: 100%; height: 100%;
+  filter: brightness(1.1) contrast(1.1);
+}
+
+.iscards{
+  padding: 10px;
+}
+
+.iscards h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+mark{
+  background: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
